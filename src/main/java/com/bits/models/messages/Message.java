@@ -40,7 +40,7 @@ public class Message {
     @Override
     public String toString() {
         return "Message{" +
-                "type=" + type +
+                type +
                 "(" + i.getID() + "," + j.getID() + "," + k.getID() + ")" +
                 '}';
     }

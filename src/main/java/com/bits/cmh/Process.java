@@ -136,6 +136,7 @@ public class Process implements IProcess {
         this.stopped = true;
         this.num = null;
         this.waiting = null;
+        this.lastEngagingQuerySender = null;
         for (Process dependent : this.dependents) {
             dependent.stop();
         }
@@ -144,5 +145,8 @@ public class Process implements IProcess {
     @Override
     public void prep(int allProcessesCount) {
         this.stopped = false;
+        this.waiting = new HashMap<>();
+        this.num = new HashMap<>();
+        this.lastEngagingQuerySender = null;
     }
 }
