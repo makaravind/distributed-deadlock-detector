@@ -20,7 +20,7 @@ _View the file in markdown_
 - App.java is the main
 - com/bits/cmh/DeadlockDetector.java is the starting point for the CMH algorithm
 
-#### Sample Input files
+#### Sample Input files (src/main/resources)
 1. Sample 1.png - graph_simple.cmh
 1. Sample 2.png - graph_ll_with_dl.cmh
 1. Sample 3.png - graph_ll_without_dl.cmh
