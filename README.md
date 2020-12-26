@@ -1,10 +1,3 @@
-_View the file in markdown_
-
-## Assignment 1
-- Name - Aravind Metku
-- Id - 2019HT12094
-
-
 ## Chandy Misra Hanss (OR) Algorithm Implementation
 
 ### Requirements
